@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PackagingMachine.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HisConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;</Value>
+    </Setting>
+    <Setting Name="FireBirdConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data source=127.0.0.1;server type=Default;initial catalog=mddb;user id=SYSDBA;password=masterkey;character set=NONE;pooling=True</Value>
+    </Setting>
+    <Setting Name="RefreshInterval" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
